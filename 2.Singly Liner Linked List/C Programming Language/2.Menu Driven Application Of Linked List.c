@@ -5,6 +5,7 @@ typedef struct node
 	int data;
 	struct node * next;
 }NODE,* PNODE,**PPNODE;
+
 void Display(PNODE Head)
 {
 	while(Head!=NULL)
