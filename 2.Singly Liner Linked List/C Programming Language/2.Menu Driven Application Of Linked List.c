@@ -5,7 +5,6 @@ typedef struct node
 	int data;
 	struct node * next;
 }NODE,* PNODE,**PPNODE;
-
 void Display(PNODE Head)
 {
 	while(Head!=NULL)
@@ -232,8 +231,6 @@ int main()
 				printf("Please enter valid choice number..\n");
 				break;
 		}
-
 	}
-	
 	return 0;
 }
