@@ -75,7 +75,6 @@ int Count(PNODE Head)
 	return iCnt;
 }
 
-
 int main()
 {
 	PNODE first=NULL;
